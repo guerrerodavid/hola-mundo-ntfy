@@ -1,1 +1,1 @@
-console.log("¡Hola Mundo desde GitHub Actions!");
+console.log("¡Práctica completada con éxito! 🚀");
