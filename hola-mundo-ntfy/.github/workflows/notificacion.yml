@@ -1,4 +1,42 @@
-name: Enviar Notificación a ntfy
+name: Enviar Notificación a ntfy - David Guerrero
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  notificar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Ejecutar Hola Mundo
+        run: node index.js
+
+      - name: Enviar notificación a ntfy
+        uses: niniyas/ntfy-action@master
+        if: always()
+        with:
+          url: 'https://ntfy.sh'
+          topic: 'devops-itla-david'  # Tu tópico personal
+          title: '🚀 David Guerrero - ITLA'
+          priority: 4
+          tags: 'DavidGuerrero,itla,devops,github-actions'
+          details: |
+            📦 **Repositorio**: hola-mundo-ntfy
+            👤 **Usuario ntfy**: DavidGuerrero
+            🔗 **Commit**: ${{ github.sha }}
+            📝 **Mensaje**: ${{ github.event.head_commit.message }}
+            📅 **Fecha**: $(date)
+            🔍 **Ver cambios**: ${{ github.event.compare }}
+            🏫 **Asignatura**: DevOps - ITLAname: Enviar Notificación a ntfy
 
 on:
   push:
