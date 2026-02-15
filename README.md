@@ -1,17 +1,17 @@
-# 🎓 Sistema Académico con Alertas de Rendimiento
+#  Sistema Académico con Alertas de Rendimiento
 
-## 🎯 Entregable 3 - COMPLETADO ✅
+##  Entregable 3 - COMPLETADO 
 
-**Estado:** ✅ Funcionando  
+**Estado:** Funcionando  
 **Backend:** http://localhost:3002  
 **Frontend:** Login operativo  
 **Fecha de entrega:** 13 de Octubre 2024
 
-### ✨ Funcionalidades implementadas:
-- ✅ Sistema de autenticación (login)
-- ✅ API REST con Express.js
-- ✅ Interfaz web responsive
-- ✅ Estructura por capas organizada
+###  Funcionalidades implementadas:
+-  Sistema de autenticación (login)
+-  API REST con Express.js
+-  Interfaz web responsive
+-  Estructura por capas organizada
 
 ---
 
@@ -25,15 +25,15 @@
 
 **Profesor:** Eduandy Cruz
 
-## 📋 Descripción
+##  Descripción
 Sistema de gestión académica con módulo de alertas de rendimiento estudiantil.
 
-## 🚀 Estado del Proyecto
-🚧 **En desarrollo** - Entregable 3: Avance funcional
+##  Estado del Proyecto
+ **En desarrollo** - Entregable 3: Avance funcional
 
-## ✨ Características
-- ✅ Sistema de autenticación
-- ✅ Gestión de estudiantes
-- ✅ Roles de usuario
-- ✅ API RESTful
+##  Características
+-  Sistema de autenticación
+-  Gestión de estudiantes
+-  Roles de usuario
+-  API RESTful
 # practice-integracion-continua
